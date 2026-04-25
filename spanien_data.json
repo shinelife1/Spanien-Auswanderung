@@ -1,0 +1,9 @@
+{
+    "budget": {
+        "Miete": 10.0,
+        "Internet": 10.0,
+        "Essen": 10.0,
+        "Freizeit": 10.0
+    },
+    "gehalt": 80.0
+}
