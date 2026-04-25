@@ -1,28 +1,39 @@
-🇪🇸 Alicante Master Center 2026
-Das Alicante Master Center ist eine All-in-One Kontrollzentrale für die Planung und Durchführung deines Umzugs und Lebens in Spanien. Die Anwendung dient als Hub für verschiedene spezialisierte Tools – vom Budget-Rechner bis zum Immobilien-Scraper.
-🚀 Features & Tools
-Das Dashboard fungiert als Launcher für folgende Module:
-💰 Budget Rechner (rechner.py): Behalte deine Ausgaben im Griff.
-💶 Brutto-Netto Rechner (gehalt_check.py): Gehaltskalkulation nach spanischem Steuerrecht.
-📋 Umzugs-Checkliste (checklist.py): Verpasse keinen wichtigen Schritt (NIE, Empadronamiento etc.).
-🎓 Vokabel Trainer (vokabeln.py): Lerne Spanisch mit System.
-🏠 Immobilien & Wetter (wetter.py): Live-Scraping von Wohnungsangeboten in Alicante/San Juan & Wetter-Updates.
-🌐 Internet-Vergleicher (internet_check.py): Faser- und Mobilfunkanbieter im Check.
-⚖️ Mietvertrag-Prüfer & ⚡ Strom-Monitor: (In Entwicklung)
-🛠️ Technische Voraussetzungen
-Die App basiert auf Python 3.12+ und nutzt moderne Bibliotheken für GUI und Automatisierung.
-Benötigte Bibliotheken
-Installiere die Abhängigkeiten mit folgendem Befehl:
+🌟 Kern-Features
+Das Master Center ist als modulares Dashboard konzipiert. Mit einem Klick startest du spezialisierte Tools:
+🏠 Wohnen & Leben
+Real Estate Scraper: Durchsucht Idealista live nach Wohnungen in San Juan d'Alacant und Alicante.
+Wetter-Monitor: Aktuelle Wetterdaten via OpenWeatherMap API für deine Zielregion.
+Internet-Check: Vergleich lokaler Anbieter für Glasfaser (Fibra).
+🎓 Sprache & Bildung
+Vokabel-Trainer: Systematisches Lernen von Vokabeln und Sätzen mit Fortschrittsspeicherung.
+Offline Verb-Konjugator: (Beta) Konjugiert spanische Verben direkt auf deinem PC ohne Internetverbindung.
+💶 Finanzen & Bürokratie
+Budget Rechner: Detaillierte Kalkulation der Lebenshaltungskosten.
+Brutto-Netto Check: Schätzung des Netto-Gehalts nach spanischem Steuerrecht.
+Umzugs-Checkliste: Dynamische Liste für Meilensteine wie NIE, Empadronamiento und Autozulassung.
+🛠️ Installation & Setup
+Repository klonen:
+bash
+git clone https://github.com
+cd Spanien-Auswanderung
+Verwende Code mit Vorsicht.
+Abhängigkeiten installieren:
 bash
 pip install customtkinter requests selenium webdriver-manager verbecc
 Verwende Code mit Vorsicht.
-Hinweis: Falls du Python 3.14 nutzt und Probleme mit verbecc hast, achte auf die spezifischen Import-Fixes im Vokabel-Modul.
-📂 Projektstruktur
-Alle Skripte müssen sich im selben Verzeichnis befinden, damit der Launcher sie finden kann:
+Chrome Driver:
+Der Immobilien-Scraper nutzt Selenium. Stelle sicher, dass Google Chrome installiert ist (der webdriver-manager kümmert sich um den Rest).
+
 Verwende Code mit Vorsicht.
-⌨️ Bedienung
-Starte das Hauptmenü:
+🚀 Ausführung
+Starte einfach die Hauptdatei, um das Kontrollzentrum zu öffnen:
 bash
-python zentrale.py
+python main_center.py
 Verwende Code mit Vorsicht.
-Klicke auf das gewünschte Tool. Es öffnet sich ein eigenständiges Fenster, während das Kontrollzentrum im Hintergrund aktiv bleibt.
+📈 Roadmap 2026
+AI-Contract-Check: Automatisierte Prüfung von spanischen Mietverträgen.
+Energy-Monitor: Integration der tagesaktuellen Strompreise (PVPC).
+Mobile-Sync: Export der Einkaufslisten auf das Smartphone.
+👨‍💻 Über das Projekt
+Dieses Projekt entstand aus der Vorbereitung auf ein neues Kapitel in Spanien. Es kombiniert Automatisierung mit praktischem Nutzen für Expats und digitale Nomaden.
+Noah – Future Resident of Alicante 🌴
