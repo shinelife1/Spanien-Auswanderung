@@ -38,5 +38,5 @@ Mobile-Sync: Export der Einkaufslisten auf das Smartphone.
 Dieses Projekt entstand aus der Vorbereitung auf ein neues Kapitel in Spanien. Es kombiniert Automatisierung mit praktischem Nutzen für Expats und digitale Nomaden.
 Noah – Future Resident of Alicante 🌴
 
-![Dashboard Preview](showcase.png)
+![Dashboard Preview](Showcase.png)
 
